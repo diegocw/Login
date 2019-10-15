@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login</title>
+    <link rel="icon" type="image/x-icon" href="https://seti.com.co/wp-content/uploads/2019/01/logo-seti-white.png" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto"
+      rel="stylesheet"
+    />
+
+    <script src="https://kit.fontawesome.com/df2b1cddb6.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@8"></script>
+    <link rel="stylesheet" href="style.css">
+     <!-- Bootstrap core CSS -->
+     
+    <link href="assets/ccTable/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <!-- <link rel="stylesheet" href="style.css"> -->
+</head>
+<body>
+    <div class="main-container">
+        <div class="container-login">
+        <div class="container-login__fields">
+            <div class="card">
+                <article class="card-body">
+                    <div class="container-logo">
+                        <img class="" src="../Login/logoSeti.png" alt="" />
+                      </div>
+                  <div class="cuerpo">
+                  <h4 class="card-title text-center">Iniciar Sesión</h4>
+                  <!-- <hr> -->
+                  <form novalidate (ngSubmit)="onSubmit()" [formGroup]="user">
+                  <div class="form-group">
+                  <div class="input-group">
+
+
+                    <div class="input-group-prepend">
+                        <input formControlName="username" class="input-d form-control" placeholder="Usuario" type="text">
+                        <span class="input-group-text"> <i class="fa fa-user"></i> </span>
+                    </div>
+
+
+
+                  </div> <!-- input-group.// -->
+                  </div> <!-- form-group// -->
+                  <div class="form-group">
+                  <div class="input-d input-group">
+
+                    
+                    <div class="input-group-prepend">
+                        <input formControlName="password" class="form-control" placeholder="**********" type="password">
+                        <span class="input-group-text"> <i class="fa fa-lock"></i> </span>
+                    </div>
+
+                      
+                      
+                  </div> <!-- input-group.// -->
+                  </div> <!-- form-group// -->
+                  <div class="form-group">
+                  <button type="submit" class="btn btn-color btn-block"> Entrar </button>
+                  </div> <!-- form-group// -->
+                  </div>
+                  </form>
+                </article>
+                </div>
+        </div>
+        </div>
+      </div>
+</body>
+</html>
